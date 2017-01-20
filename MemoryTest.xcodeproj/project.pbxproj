@@ -138,6 +138,11 @@
 			attributes = {
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Jan Ilavsky";
+				TargetAttributes = {
+					55F58DB4164838D4008566AE = {
+						DevelopmentTeam = ZVHNFV8S8B;
+					};
+				};
 			};
 			buildConfigurationList = 55F58DAF164838D4008566AE /* Build configuration list for PBXProject "MemoryTest" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -285,10 +290,11 @@
 		55F58DDD164838D5008566AE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = ZVHNFV8S8B;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MemoryTest/MemoryTest-Prefix.pch";
 				INFOPLIST_FILE = "MemoryTest/MemoryTest-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "Hyperbolic-Magnetism.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = at.phatbl.MemoryTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -297,10 +303,11 @@
 		55F58DDE164838D5008566AE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = ZVHNFV8S8B;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MemoryTest/MemoryTest-Prefix.pch";
 				INFOPLIST_FILE = "MemoryTest/MemoryTest-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "Hyperbolic-Magnetism.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = at.phatbl.MemoryTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
